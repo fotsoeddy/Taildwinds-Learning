@@ -554,6 +554,14 @@ video {
   --tw-contain-style:  ;
 }
 
+.grid {
+  display: grid;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
 @keyframes bounce {
   0%, 100% {
     transform: translateY(-25%);
@@ -590,9 +598,18 @@ video {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
+.place-content-center {
+  place-content: center;
+}
+
 .bg-red-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
 .text-4xl {
@@ -600,7 +617,21 @@ video {
   line-height: 2.5rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
 .text-lime-100 {
   --tw-text-opacity: 1;
   color: rgb(236 252 203 / var(--tw-text-opacity));
+}
+
+.text-yellow-400 {
+  --tw-text-opacity: 1;
+  color: rgb(250 204 21 / var(--tw-text-opacity));
 }
